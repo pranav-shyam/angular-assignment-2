@@ -1,0 +1,19 @@
+
+
+.form-container{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 300px;
+    background-color: white;
+    border-radius: 100px;
+    margin: 20px;
+
+}
+
+.title-class{
+    color: rgb(2, 2, 59);
+}

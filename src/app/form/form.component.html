@@ -1,0 +1,7 @@
+<div class="form-container">
+    <h1 class="title-class">Forms Assignment</h1>
+    <label for="inputElement">UserName</label>
+    <input type="text" class="form-control" [(ngModel)] = "userName">
+    <p class="user-name-text">{{userName}}</p>
+    <button type="button" class="btn btn-primary button-class" [disabled]="userName===''" (click)="resetUserName()">Add User</button>
+</div>
